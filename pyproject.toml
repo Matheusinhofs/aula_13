@@ -1,0 +1,19 @@
+[project]
+name = "aula-13"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Matheusinhofs",email = "matheusfs117@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "schedule (>=1.2.2,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "boto3 (>=1.36.23,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

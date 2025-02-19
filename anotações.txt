@@ -1,0 +1,12 @@
+
+A main traz a função para verificar se tem algum arquivo novo
+Tem uma classe para cada tipo de arquivo que hoje pode ser lançado nas pastas, e tipos de arquivos não inclusos serão tratados como abstract
+
+O ABC vai garantir que a função garante todos os elementos que uma classe abstrata precisa ter
+    Por ter essa classe abstrata ele indica a sequência que deve ser seguida de métodos, se não seguir ele da erro
+
+
+O filesource começa a implementar coisas comuns a todo mundo, com métodos que podem ser implementados depois
+    Essa classe garante que as fases de arquivo tem os métodos de buscar o caminho, o arquivo e verifica se há novos arquivos
+    
+
